@@ -1,0 +1,18 @@
+$clearfix {
+  zoom: 1;
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+//.content
+//  @extend $clearfix
+//  .word
+//    float left
+//    margin-bottom 10px
+//    margin-right 10px
