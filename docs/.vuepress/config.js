@@ -27,11 +27,8 @@ module.exports = {
     config (md) {
       md.use(customBlock, {
         word (arg) {
-          const items = arg.split('|')
-          return `<word>
-            <span>${items[0]}</span>
-            <span slot="translation">${items[1]}</span>
-            </word>`
+          const [s0, s1] = arg.split('|')
+          return `<word><span>${s0}</span>${s1? `<span slot="translation">${s1}</span>` : ''}</word>`
         }
       })
     }

@@ -1,6 +1,6 @@
 {
   "name": "technical-english",
-  "description": "Collect technical English that I meet.",
+  "description": "Collect technical English that I met.",
   "version": "1.0.0",
   "scripts": {
     "docs:dev": "vuepress dev docs",
