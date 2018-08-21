@@ -39,7 +39,7 @@ module.exports = {
 
   // PWA support
   // See: https://vuepress.vuejs.org/config/#serviceworker
-  serviceWorker: true,
+  serviceWorker: false,
 
   // See: https://vuepress.vuejs.org/default-theme-config/#homepage
   themeConfig: {
