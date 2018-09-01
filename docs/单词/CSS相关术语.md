@@ -14,5 +14,11 @@
 
 @[word](ruleset | 规则集)
 
+@[word](operations | 运算、操作)
+
+@[word](Escaping | 转义)
+
+@[word](dimensions | 尺寸；规模；面积)
+
 </masonry>
 
