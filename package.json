@@ -3,14 +3,14 @@
   "description": "Collect technical English that I met.",
   "version": "1.0.0",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "repository": "https://github.com/ULIVZ/technical-english.git",
   "author": "ULIVZ <chl814@foxmail.com>",
   "license": "MIT",
   "devDependencies": {
     "markdown-it-custom-block": "^0.1.1",
-    "vuepress": "^0.14.2"
+    "vuepress": "^v1.0.0-alpha.18"
   }
 }
